@@ -3,6 +3,10 @@ This simple module was heavily inspired from [Jhonny-Five](https://github.com/rw
 and is used with [serialPort](https://github.com/voodootikigod/node-serialport)
 for autodetect Arduino board attach via USB.
 
+### installation
+```
+npm install -S serial-arduino-detect
+```
 ### Quick example
 ```javascript
 com = require('serialport');
