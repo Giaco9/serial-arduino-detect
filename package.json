@@ -1,6 +1,6 @@
 {
   "name": "serial-arduino-detect",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "module for detect arduino board via USB",
   "main": "index.js",
   "scripts": {
