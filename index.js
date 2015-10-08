@@ -24,7 +24,7 @@ Board.prototype.detect = function(cb) {
         available = false;
       }
       // Allow only if is an arduino
-      if (val.manufacturer.indexOf('Arduino') === -1) {
+      if (val.manufacturer.indexOf('Arduino') === -1 && val.manufacturer.indexOf('wch') === -1) {
         available = false;
       }
 
